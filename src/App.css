@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: 14px;
+  background: var(--cream);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-large {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.label-font {
+  font-family: 'Fraunces', serif;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  width: 375px;
+  background: #f4f;
+}
+
+.CardWrapper {
+  border-radius: 15px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background: var(--white);
+  color: var(--dark-grayish-blue);
+}
+
+.CardImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+.CardBody {
+  padding: 6.5%;
+}
+
+.product-type {
+  font-size: 0.8rem;
+  letter-spacing: 0.3135rem;
+}
+
+.description {
+  margin: 10px 0px;
+}
+
+.product-name {
+  color: var(--very-dark-blue);
+}
+
+.current-price {
+  color: var(--dark-cyan);
+  margin-right: 8%;
+}
+
+.full-price {
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  vertical-align: super;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  font-weight: bold;
+  background: var(--dark-cyan);
+}
+
+.add-to-cart:hover {
+  background: hsla(157, 43%, 18%, 1);
+  border: 1px solid hsla(157, 43%, 18%, 1);
+}
+
+@media screen and (min-width: 700px) {
+
+  .font-large {
+    font-size: 2.5rem;
+  }
+
+  .CardWrapper {
+    display: flex;
+    width: 700px;
+    height: 520px;
+  }
+
+  .CardBody {
+    padding: 5%;
+  }
+
+  .description {
+    line-height: 1.7rem;
+    font-size: 1rem;
+    margin: 10% 0%;
+  }
+
+  .CardImage {
+    width: 350px;
+  }
+
+  .full-price {
+    font-size: 1rem;
+  }
+
+}
