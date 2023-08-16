@@ -92,6 +92,9 @@ main {
   height: 45px;
   font-weight: bold;
   background: var(--dark-cyan);
+  color: var(--white);
+  border-radius: 5px;
+  border: 1px solid hsla(157, 43%, 18%, 1);
 }
 
 .cart-icon {
@@ -102,6 +105,7 @@ main {
 .add-to-cart:hover {
   background: hsla(157, 43%, 18%, 1);
   border: 1px solid hsla(157, 43%, 18%, 1);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 700px) {
