@@ -3,7 +3,7 @@ export default function PurchaseButton({ salePrice, fullPrice }) {
     console.log('Item added to cart');
   }
   return <>
-    <h2>
+    <h2 className="price-listing">
       <span className="current-price font-large label-font">{salePrice}</span>
       <span className="full-price font-small strike">{fullPrice}</span>
     </h2>
