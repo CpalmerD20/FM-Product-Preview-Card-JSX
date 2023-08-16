@@ -1,6 +1,6 @@
-export default function CardImage({ desktopView, mobileView }) {
+export default function CardImage({ desktopView, mobileView, altDescription }) {
   return <picture className="CardImage">
     <source className="CardImage" srcset={desktopView} media="(min-width: 50rem)" alt="" />
-    <img className="CardImage" src={mobileView} alt="" role="presentation" />
+    <img className="CardImage" src={mobileView} alt={altDescription} />
   </picture>
 }
