@@ -94,7 +94,7 @@ main {
   background: var(--dark-cyan);
   color: var(--white);
   border-radius: 5px;
-  border: 1px solid hsla(157, 43%, 18%, 1);
+  border: 1px solid var(--dark-cyan);
 }
 
 .cart-icon {
