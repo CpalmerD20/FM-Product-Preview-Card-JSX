@@ -2,8 +2,8 @@ import './App.css';
 import CardWrapper from './CardWrapper';
 
 const productConfig = {
-  desktopView: "./docs/assets/product-desktop.jpg",
-  mobileView: "./docs/assets/product-mobile.jpg",
+  desktopView: "./assets/product-desktop.jpg",
+  mobileView: "./assets/product-mobile.jpg",
   type: "PERFUME",
   name: "Gabrielle Essence Eau De Parfum",
   description: "A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.",
