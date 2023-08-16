@@ -94,6 +94,11 @@ main {
   background: var(--dark-cyan);
 }
 
+.cart-icon {
+  margin-right: 10px;
+  transform: translateY(3px);
+}
+
 .add-to-cart:hover {
   background: hsla(157, 43%, 18%, 1);
   border: 1px solid hsla(157, 43%, 18%, 1);
