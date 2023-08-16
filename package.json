@@ -1,8 +1,8 @@
 {
+  "homepage": "https://cpalmerd20.github.io/FM-Product-Preview-Card-JSX/",
   "name": "product-preview-card",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cpalmerd20.github.io/FM-Product-Preview-Card-JSX/",
   "type": "module",
   "scripts": {
     "dev": "vite",
