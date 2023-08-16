@@ -10,7 +10,7 @@ export default function PurchaseButton({ salePrice, fullPrice }) {
     <button
       className="add-to-cart"
       onClick={handleClick}
-    >Add to Cart
+    ><img src="./src/assets/icon-cart.svg" alt="" />Add to Cart
     </button>
   </>
 }
